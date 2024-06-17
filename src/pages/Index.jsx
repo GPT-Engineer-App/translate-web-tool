@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import franc from 'franc';
+import { franc } from 'franc';
 import { Container, VStack, Textarea, Select, Text, Box, HStack, SimpleGrid } from "@chakra-ui/react";
 import { FaExchangeAlt } from "react-icons/fa";
 import debounce from 'lodash.debounce';
